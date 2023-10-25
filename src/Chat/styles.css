@@ -1,0 +1,48 @@
+.container {
+}
+.container > h2,
+p {
+  margin-bottom: 1rem;
+}
+
+.container > p {
+    color: #808080;
+}
+
+.input-container {
+    margin-bottom: 1rem;
+}
+.input-container > button {
+    margin-left: 10px;
+}
+.input-container > .delete-all-btn {
+    color: #ff0000;
+}
+
+.list-item{
+    margin: 10px 0;
+}
+
+.list-item > div > .source-name{
+    font-weight: 500;
+}
+
+.list-item > div > .del-item-btn {
+    text-transform: capitalize;
+    color: blue;
+    text-decoration: underline;
+    margin-left: 10px;
+}
+
+.list-item > div > .del-item-btn:hover{
+    cursor: pointer;
+}
+
+.list-item > hr {
+    border-top: 1px dashed #808080;
+    margin: 10px 0;
+}
+
+.list-item > .text{
+    color: #808080;
+}
